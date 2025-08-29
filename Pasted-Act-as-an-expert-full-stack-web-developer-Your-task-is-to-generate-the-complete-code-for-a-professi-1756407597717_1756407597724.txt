@@ -1,0 +1,92 @@
+Act as an expert full-stack web developer. Your task is to generate the complete code for a professional, one-page, mobile-responsive business website.
+
+Please generate all the necessary files: index.html, style.css, and script.js.
+
+Use the following technology stack:
+	•	Frontend: HTML5, CSS3, JavaScript (ES6)
+	•	Styling: TailwindCSS for a utility-first approach. Please provide the full TailwindCSS CDN link in the HTML head.
+	•	Animations: Use subtle, professional animations for hover effects and page load (e.g., elements fading in).
+
+Here are the detailed specifications for the website:
+
+⸻
+
+1. General Information & Branding
+	•	Business Name: GARG BANDHU
+	•	Primary Phone Number: +918839341845
+	•	WhatsApp Number +918839341845
+	•	Business Address: Heerabagh colony, cant road, Guna, Madhya Pradesh,
+473001
+	•	Google Maps Link: Paste your Google Business Profile maps link]
+
+⸻
+
+2. Design System
+	•	Color Palette:
+	•	Primary/Text Color: #0F2940 (Navy Blue, professional look)
+	•	Action/Button Color: #2A90E0 (Bright Blue for CTA buttons)
+	•	Background: White with subtle light gray/blue gradients
+	•	Typography:
+	•	Headings: Poppins (Google Fonts, bold 700)
+	•	Body Text: System default sans-serif
+
+⸻
+
+3. Website Sections
+
+a. Header & Navigation
+	•	Fixed navbar with logo (text: “GARG BANDHU”) on the left.
+	•	Menu Items: Home | Services | Location | Contact
+	•	CTA Button: “Book on WhatsApp”
+
+b. Hero Section
+	•	Headline: “Trusted Supplier of Cement, Steel & Paints in Guna”
+	•	Subheading: “Delivering UltraTech Cement, Premium Steel, and Quality Paints with trust & service since 1987.”
+	•	Buttons:
+	•	📞 “Call Us: +91883934145” (tel: link)
+	•	💬 “Book on WhatsApp” (trigger booking form)
+	•	Hero Image: [Placeholder for shop photo or UltraTech cement/paint/steel image from Unsplash]
+
+c. Smart Booking Form (WhatsApp Integration)
+	•	Modal popup with fields:
+	•	Customer Name (required)
+	•	Phone Number (required)
+	•	Material Selection (dropdown):
+	•	UltraTech Cement (PPC, Weather Plus)
+	•	Steel (Amba Shakti, Kamdhenu NXT)
+	•	Paints (Birla Opus, Berger)
+	•	Waterproofing & White Cement (Birla White, Dr. Fixit)
+	•	Other (with custom input field)
+	•	Address (optional)
+	•	On Submit → Pre-filled WhatsApp message: 🧱 *New Enquiry - GARG BANDHU*  
+👤 Name: [Customer Name]  
+📱 Phone: [Phone Number]  
+🏗️ Material Required: [Selected Material]  
+📍 Address: [Customer Address]  
+
+Hello, I want to place an enquiry/order. Please confirm availability.
+d. Services Section
+
+Heading: “Our Products & Services”
+	•	Cement → UltraTech PPC & Weather Plus
+	•	Steel → Amba Shakti, Kamdhenu NXT
+	•	Paints → Birla Opus, Berger Paints
+	•	Waterproofing & White Cement → Birla White, Dr. Fixit
+
+Each card: icon + short description. Hover animation: lift + slight scale.
+
+⸻
+
+e. Location & Contact Section
+	•	Interactive Google Map embed with Get Directions button.
+	•	Business Info Card:
+	•	Address: [Full Address]
+	•	Business Hours: Mon–Sat (9AM – 8PM), Sunday Closed
+	•	Call button + WhatsApp button
+
+⸻
+
+🔧 Notes
+	•	Must be fully mobile-responsive.
+	•	Smooth scrolling for menu navigation.
+	•	Booking form should work seamlessly with WhatsApp API (https://wa.me/).
